@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://res.cloudinary.com/dvoxouxxn/image/upload/c_pad,h_32,q_auto:best,w_32/v1626555839/favicon.ico">
+    <link rel="stylesheet" href="{% webpackAsset 'main.css' %}">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <main>
+      {{ content | safe }}
+    </main>
+    <script src="{% webpackAsset 'main.js' %}"></script>
+  </body>
+</html>

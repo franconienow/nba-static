@@ -1,0 +1,19 @@
+body {
+  @apply bg-gray-800 text-gray-100;
+}
+
+header {
+  @apply bg-gray-700;
+}
+
+main {
+  @apply py-6;
+}
+
+.container {
+  @apply mx-auto;
+}
+
+.code {
+  @apply font-mono text-purple-500;
+}

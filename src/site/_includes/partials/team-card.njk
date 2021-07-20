@@ -1,0 +1,16 @@
+<a href="{{ page.url }}{{ team.full_name | slug }}" data-conf="{{ team.conference | lower }}">
+  <div class="
+    flex flex-col p-4 gap-4
+    bg-gray-600 hover:bg-gray-700 focus:bg-gray-700
+    rounded-md shadow hover:shadow-lg focus:shadow-lg 
+    transition delay-0 duration-200 ease-in-out">
+    <div>
+      <img src="https://res.cloudinary.com/dvoxouxxn/image/upload/ar_16:9,c_pad,f_auto,q_auto,w_320/v1/nba-teams/{{ team.abbreviation | lower }}.png"
+        class="rounded-t-md"
+        alt="Team logo">
+    </div>  
+    <div class="scale-y-75">
+      <h1 class="font-bold text-base md:text-xl">{{ team.full_name }}</h1>
+    </div>
+  </div>
+</a>

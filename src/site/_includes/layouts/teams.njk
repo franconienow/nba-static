@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section>
+  <div class="container">
+    <div class="conf-filter flex flex-col gap-4">
+      {% include "../partials/conference-filter.njk" %}
+      <div class="grid gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 conf-content">
+        {% for team in teams.11tydata %}
+          {% include "../partials/team-card.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
