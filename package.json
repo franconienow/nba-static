@@ -1,12 +1,11 @@
 {
-  "name": "elevenpack",
-  "version": "1.1.0",
-  "description": "Publish a website using Eleventy, webpack and PostCSS",
-  "author": "Adrian Gheorghe",
+  "name": "nba-static",
+  "version": "1.0.0",
+  "author": "Franco Nienow",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/deviousdodo/elevenpack"
+    "url": "https://github.com/franconienow/nba-static"
   },
   "scripts": {
     "build": "npm-run-all clean build:assets build:site",
